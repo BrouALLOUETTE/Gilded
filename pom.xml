@@ -4,20 +4,17 @@
   <artifactId>Gilded</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <Build>
-    <dependencies>
-        <dependency>
-          <plugin>
-            <groupId>org.eluder.coveralls</groupId>
-            <artifactId>coveralls-maven-plugin</artifactId>
-            <version>4.3.0</version>
-            <configuration>
-                <repoToken>SraczWvc0GMbkIK0ZIUk0in46V0Coduzd</repoToken>
-            </configuration>
-          </plugin>
-        </dependency>
-      </dependencies>
-    </Build>
-
+  <build>
+    <plugins>
+      <plugin>
+          <groupId>org.eluder.coveralls</groupId>
+          <artifactId>coveralls-maven-plugin</artifactId>
+          <version>4.3.0</version>
+          <configuration>
+          <repoToken>SraczWvc0GMbkIK0ZIUk0in46V0Coduzd</repoToken>
+          </configuration>
+      </plugin>
+    </plugins>
+  </build>
 
 </project>
