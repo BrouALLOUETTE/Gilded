@@ -11,7 +11,7 @@
         <artifactId>coveralls-maven-plugin</artifactId>
         <version>4.3.0</version>
         <configuration>
-            <repoToken>token à rajouter </repoToken>
+            <repoToken>token à rajouter</repoToken>
         </configuration>
       </plugin>
     </dependency>
