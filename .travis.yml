@@ -1,4 +1,4 @@
 language: java
 script: mvn test
 after_success:
-  - mvn test Gilded:report coveralls:report
+  - coveralls
