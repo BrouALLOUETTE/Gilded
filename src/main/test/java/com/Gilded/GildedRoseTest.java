@@ -11,10 +11,10 @@ public class GildedRoseTest {
 
     @Test
     public void foo() {
-        Item[] items = new Item[] { new Item("Aged Brie", 2, 0) };
+        Item[] items = new Item[] { new Item("Aged Brie", 0, 10) };
         GildedRose app = new GildedRose(items);
         app.updateQuality();
-        assertEquals("fixme", app.items[0].name);
+        assertEquals("Aged Brie", 0, 9);
     }
 
 }
