@@ -11,7 +11,7 @@
           <artifactId>coveralls-maven-plugin</artifactId>
           <version>0.0.1-SNAPSHOT</version>
           <configuration>
-          <repoToken>SraczWvc0GMbkIK0ZIUk0in46V0Coduzd</repoToken>
+            <repoToken>SraczWvc0GMbkIK0ZIUk0in46V0Coduzd</repoToken>
           </configuration>
       </plugin>
     </plugins>
