@@ -2,7 +2,6 @@ package Gilded;
 import java.io.File;
 import java.io.IOException;
 
-import org.eluder.coveralls.maven.plugin.source.SourceCallback;
 
 class GildedRose {
     Item[] items;
