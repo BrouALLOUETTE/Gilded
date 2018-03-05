@@ -1,7 +1,4 @@
 package Gilded;
-import java.io.File;
-import java.io.IOException;
-
 
 class GildedRose {
     Item[] items;
