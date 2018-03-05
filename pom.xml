@@ -45,4 +45,14 @@
     </dependency>
   </dependencies>
 
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>org.assertj:assertj-core:3.9.0</scope>
+    </dependency>
+  </dependencies>
+
 </project>
